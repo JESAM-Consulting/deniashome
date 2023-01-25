@@ -71,7 +71,7 @@ export default function Step5() {
       dachform: userData.step2,
       telefon: data.telefon,
       email: data.email,
-      leadherkunft: "https://www.solar-pvcheck.de",
+      leadherkunft: "https://deniashome.netlify.app",
     };
     await axios
       .post(
@@ -94,8 +94,8 @@ export default function Step5() {
         dachform: userData.step2,
         telefon: data.telefon,
         email: data.email,
-        leadherkunft: "https://www.solar-pvcheck.de",
-        project:"houselovelive"
+        leadherkunft: "https://deniashome.netlify.app",
+        project:"deniashome"
       };
 
       await axios
@@ -187,7 +187,7 @@ export default function Step5() {
         </div>
         <button
           type="submit"
-          className="mt-4 bg-yellow-1 outline-none lg:px-12 lg:text-base md:px-8 font-visby font-bold py-3 rounded-md hover:cursor-pointer text-white transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#93796b] md:text-sm md:w-auto w-full">
+          className="mt-4 bg-yellow-1 outline-none lg:px-12 lg:text-base md:px-8 font-visby font-bold py-3 rounded-md hover:cursor-pointer text-white transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#76756d] md:text-sm md:w-auto w-full">
           Angebote erhalten kostenlos & unverbindlich
         </button>
 
