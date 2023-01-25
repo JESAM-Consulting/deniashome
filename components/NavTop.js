@@ -39,40 +39,42 @@ export default function NavTop() {
             />
           </svg>
         </div>
-        <div className="md:flex items-center w-full justify-evenly hidden">
-          <div style={{width:"290px"}}>
+        <div className="md:flex items-center w-full justify-evenly">
+          <div  className="md:w-60 w-52 hover:cursor-pointer lg:ml-10  py-3">
 
           <Image src={ImageLogo} />
           </div>
-          <div className="flex items-center lg:space-x-4 md:space-x-3">
-            <div
-              data-active={step <= 6 ? true : false}
-              className="circle rounded-full p-[1rem] bg-white  relative box-border border-yellow-1 border transition-all ease-in-out duration-500">
-              <div className="numero absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2 font-bold text-base transition-all ease-in-out duration-500">
-                1
+          <div className="md:flex items-center w-full justify-evenly hidden">
+            <div className="flex items-center lg:space-x-4 md:space-x-3">
+              <div
+                data-active={step <= 6 ? true : false}
+                className="circle rounded-full p-[1rem] bg-white  relative box-border border-yellow-1 border transition-all ease-in-out duration-500">
+                <div className="numero absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2 font-bold text-base transition-all ease-in-out duration-500">
+                  1
+                </div>
               </div>
+              <span className="font-roboto font-bold ">Bedarf</span>
             </div>
-            <span className="font-roboto font-bold ">Bedarf</span>
-          </div>
-          <div className="flex items-center lg:space-x-4 md:space-x-3">
-            <div
-              data-active={step >= 5 ? true : false}
-              className="circle rounded-full p-[1rem] bg-white  relative box-border border-yellow-1 border transition-all ease-in-out duration-500">
-              <div className="numero absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2 font-bold text-base transition-all ease-in-out duration-500">
-                2
+            <div className="flex items-center lg:space-x-4 md:space-x-3">
+              <div
+                data-active={step >= 5 ? true : false}
+                className="circle rounded-full p-[1rem] bg-white  relative box-border border-yellow-1 border transition-all ease-in-out duration-500">
+                <div className="numero absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2 font-bold text-base transition-all ease-in-out duration-500">
+                  2
+                </div>
               </div>
+              <span className="font-roboto font-bold ">Anfrage</span>
             </div>
-            <span className="font-roboto font-bold ">Anfrage</span>
-          </div>
-          <div className="flex items-center lg:space-x-4 md:space-x-3">
-            <div
-              data-active={step == 6 ? true : false}
-              className="circle rounded-full p-[1rem] bg-white  relative box-border border-yellow-1 border transition-all ease-in-out duration-500">
-              <div className="numero absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2 font-bold text-base transition-all ease-in-out duration-500">
-                3
+            <div className="flex items-center lg:space-x-4 md:space-x-3">
+              <div
+                data-active={step == 6 ? true : false}
+                className="circle rounded-full p-[1rem] bg-white  relative box-border border-yellow-1 border transition-all ease-in-out duration-500">
+                <div className="numero absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2 font-bold text-base transition-all ease-in-out duration-500">
+                  3
+                </div>
               </div>
+              <span className="font-roboto font-bold "> Prüfung</span>
             </div>
-            <span className="font-roboto font-bold "> Prüfung</span>
           </div>
         </div>
       </div>
