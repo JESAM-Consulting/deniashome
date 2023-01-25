@@ -25,9 +25,9 @@ export default function Step5() {
 
   const config = {
     headers: {
-      "X-API-Account": "71658",
+      "X-API-Account": "89043289",
       "X-API-Key":
-        "OiJKV1QiLCJub25jZSI6IjJFY0RuMHAtLW9YQU1vVnZtaDZYaEFNQ0lIcVBEMzRvaUppWm44cktmY0kiLCJhbGciOiJSUzI1NiIsIng1dCI6ImpTMVhvMU9XRGpfNTJ2YndHTmd2UU8yVnpNYyIsImtpZCI6ImpTMVhvMU9XRGpfNTJ2YndHTmd2UU8yVnpNYyJ9feKq9lzfS9RoR4pWxajCpaLVk8EcQBGsy4",
+        "m5ldC8c3aW5k5MhbGciqqTAwMDAtYzAwMMy0wMDAwLd2UU8yqnpNYyIsImtpZCI6ImpTMVhvMU9XAwMDAwMNTJ2YndHTmd2UU8DAwMDAiLCJpc3MiOiJodHRwb3dzLm5ldC85MjC0wMD1NiIqwdsIng1dCI6ImpTMVhvMU9XRGpfNTJ2YndHTmgsdgx3425OiJSUzIRGpfyVn.eyJhdWQiOiIwMDAwMDpNYyJ9AwNkZ",
     },
   };
 
@@ -60,7 +60,7 @@ export default function Step5() {
     };
 
     const respuesta = await sendForm(DataToSend);
-    
+
     console.log(data);
     const sendData = {
       vorname: data.name,
@@ -83,22 +83,22 @@ export default function Step5() {
         myForm.current.reset();
 
         setStep(step + 1);
-      })
+      });
 
-      const Data = {
-        name: data.name,
-        plz: userData.step4,
-        stromverbrauch: userData.step1,
-        Eigentuemer: userData?.step3?.[0],
-        // isLiveInOwnProperty: userData?.step3?.[1],
-        dachform: userData.step2,
-        telefon: data.telefon,
-        email: data.email,
-        leadherkunft: "https://deniashome.netlify.app",
-        project:"deniashome"
-      };
+    const Data = {
+      name: data.name,
+      plz: userData.step4,
+      stromverbrauch: userData.step1,
+      Eigentuemer: userData?.step3?.[0],
+      // isLiveInOwnProperty: userData?.step3?.[1],
+      dachform: userData.step2,
+      telefon: data.telefon,
+      email: data.email,
+      leadherkunft: "https://deniashome.netlify.app",
+      project: "deniashome",
+    };
 
-      await axios
+    await axios
       .post(
         `https://fe-lead-commen-api.rejoicehub.com/FE_API/lead_api/v1/contact`,
         Data,
@@ -109,12 +109,10 @@ export default function Step5() {
         setStep(step + 1);
       })
 
-
       .catch((error) => {
         console.log(error);
       });
 
-   
     // if (respuesta.data.cod_resp === "000") {
     //   myForm.current.reset();
 
@@ -187,7 +185,8 @@ export default function Step5() {
         </div>
         <button
           type="submit"
-          className="mt-4 bg-yellow-1 outline-none lg:px-12 lg:text-base md:px-8 font-visby font-bold py-3 rounded-md hover:cursor-pointer text-white transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#76756d] md:text-sm md:w-auto w-full">
+          className="mt-4 bg-yellow-1 outline-none lg:px-12 lg:text-base md:px-8 font-visby font-bold py-3 rounded-md hover:cursor-pointer text-white transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#76756d] md:text-sm md:w-auto w-full"
+        >
           Angebote erhalten kostenlos & unverbindlich
         </button>
 
