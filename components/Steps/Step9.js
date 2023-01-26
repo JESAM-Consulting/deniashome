@@ -244,7 +244,7 @@ export default function Step9() {
           </div>
           <div className="flex flex-col  relative space-y-2 lg:w-1/2">
             <label htmlFor="telefon" className="text-left font-bold font-visby">
-              Telefonnummer *
+            Telefonnummer*
             </label>
             <input
               id="telefon"
@@ -260,7 +260,7 @@ export default function Step9() {
 
         <div className="flex flex-col  relative mt-4 space-y-2">
           <label htmlFor="email" className="text-left font-bold font-visby ">
-            E-Mailadresse *
+          E-Mail Adresse*
           </label>
           <input
             type="email"
