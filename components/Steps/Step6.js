@@ -120,6 +120,8 @@ export default function Step6() {
                 Globaleinstrahlung in der Bundesrepublik Deutschland Jahressumme
                 in kWh/m²
               </div>
+
+              
             </div>
 
             <div className="space-y-2">
