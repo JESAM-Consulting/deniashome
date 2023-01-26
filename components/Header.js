@@ -4,13 +4,13 @@ import Head from "next/head";
 export default function Header() {
   return (
     <Head>
-      <title>Photovoltaik Angebot</title>
+      <title>DeniasHome</title>
       <meta
         name="description"
         content="Photovoltaik Angebot - individuelle Solar-Beratung."
       />
 
-      <link rel="icon" href="/favicon.svg" />
+      <link rel="icon" href="/favicon.png" />
     </Head>
   );
 }

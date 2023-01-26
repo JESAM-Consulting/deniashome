@@ -209,7 +209,7 @@ export default function Step8() {
               onClick={() => {
                 setStep(step - 1);
               }}
-              className="font-bold font-roboto px-10 py-2 border-[#0e4e70] border rounded-md text-[#0e4e70] hover:cursor-pointer transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] hover:bg-green-1 hover:text-white">
+              className="font-bold font-roboto px-10 py-2 border-[#A1A09C] border rounded-md text-[#A1A09C] hover:cursor-pointer transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] hover:bg-green-1 hover:text-white">
               Zurück
             </div>
             <div

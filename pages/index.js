@@ -277,7 +277,7 @@ export default function Home() {
               setStep(step - 1);
             }}
             data-show={step != 0 && step != 10 && step != 8 ? true : false}
-            className={`bg-green-1 mb-4 mt-4 mx-6 lg:hidden lg:opacity-0 md:mt-8 z-50 backButtonM relative group hover:cursor-pointer  transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] flex justify-center items-center space-x-3 font-roboto rounded-md py-2.5 md:w-32 w-10 text-white text-center`}>
+            className={`bg-green-1 mb-4 mt-4 mx-6 lg:hidden lg:opacity-0 md:mt-8 z-50 backButtonM relative group hover:cursor-pointer  transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#0274b2be] flex justify-center items-center space-x-3 font-roboto rounded-md py-2.5 md:w-32 w-10 text-white text-center`}>
             <span className="w-3 group-hover:-translate-x-[0.18rem] transition-all ease-in-out duration-150">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path
@@ -309,7 +309,7 @@ export default function Home() {
             data-show={step != 0 && step != 10 && step != 7 && step != 8}
             className={`bg-green-1 lg:absolute lg:flex hidden ${
               step == 9 ? "bottom-[50px]" : "bottom-[120px]"
-            } right-4 backButton group hover:cursor-pointer  transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] justify-center items-center space-x-3 font-roboto rounded-md py-2.5 md:w-32 w-10 text-white text-center`}>
+            } right-4 backButton group hover:cursor-pointer  transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#0274b2be] justify-center items-center space-x-3 font-roboto rounded-md py-2.5 md:w-32 w-10 text-white text-center`}>
             <span className="w-3 group-hover:-translate-x-1 transition-all ease-in-out duration-150">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path
