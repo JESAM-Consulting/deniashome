@@ -25,7 +25,7 @@ export default function NavTop() {
           onClick={() => {
             router.push("/");
           }}>
-          <img src="/images/logo.webp" alt="" className="md:w-[18.6rem] w-52" />
+          <img src="/images/logo.svg" alt="" className="md:w-[26rem] w-52" />
         </div>
         <div className="md:flex items-center w-full justify-evenly hidden">
           <div className="flex items-center lg:space-x-4 md:space-x-3">
